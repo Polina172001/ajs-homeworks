@@ -7,5 +7,6 @@ export default function checkStatus(user) {
   } else if (user.health < 15) {
     status = 'critical';
   }
+  
   return status;
 }
